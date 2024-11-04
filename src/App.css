@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #87CEEB; /* Light sky blue background */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.App {
+  text-align: center;
+  width: 100%; /* Full width */
+}
+
+.App-header {
+  background-color: transparent; /* Keep header transparent */
+  min-height: auto; /* No minimum height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  padding: 30px; /* Increased padding */
+  width: 400px; /* Fixed width for the container */
+  text-align: center; /* Center text */
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333; /* Darker text color for better readability */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #555; /* Medium gray color */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; /* Space between headings and form */
+}
+
+input {
+  margin: 10px 0;
+  padding: 15px; /* Increased padding for input */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded input corners */
+  font-size: 16px; /* Consistent font size */
+  transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  padding: 15px; /* Increased padding for button */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px; /* Rounded button corners */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.toggle-button {
+  margin-top: 15px; /* Space above toggle button */
+  background: none;
+  border: none;
+  color: #007bff; /* Blue text for toggle */
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline; /* Underline text for toggle */
+}
+
+.toggle-button:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+
